@@ -1,0 +1,29 @@
+0000.003 () Opened log file at time: Fri, 16 Dec 2016 08:42:46 +0000 on http://www.duesseldorfer-toastmasters.de
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.7 PHP: 5.3.3-7+squeeze28 (apache2handler, Linux server127 2.6.32-5-amd64 #1 SMP Fri May 10 08:43:19 UTC 2013 x86_64) MySQL: 5.1.73 WPLANG: de_DE Server: Apache/2.2.16 (Debian) safe_mode: 1 max_execution_time: 30 memory_limit: 128M (used: 94.8M | 95.5M) multisite: N openssl: OpenSSL 0.9.8o 01 Jun 2010 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 295732.9 MB
+0000.005 () Restore job started. Entities to restore: plugins, themes, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.076 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.098 () Entity: db
+0000.098 () restore_backup(backup_file=backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-db.gz, type=db, info=a:0:{}, last_one=)
+0000.106 () PHP event: code E_WARNING: filesize(): Unable to access /html/wp-content/updraft-bckup/backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-db.gz (line 339, wp-content/plugins/updraftplus/restorer.php)
+0000.106 () PHP event: code E_WARNING: filesize(): stat failed for /html/wp-content/updraft-bckup/backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-db.gz (line 339, wp-content/plugins/updraftplus/restorer.php)
+0000.106 () Entpacke Sicherung... (backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-db.gz, 0 Mb)
+0000.118 () Database successfully unpacked
+0000.119 () Datenbank wiederherstellen (bei großen Websites kann das dauern - wenn der Vorgang in einen Timeout läuft (was passieren kann, wenn dein Webhoster die Ressourcen limitiert) solltest du andere Methoden, wie z.B. phpMyAdmin, nutzen) ...
+0000.119 () Using direct MySQL access; value of use_mysqli is: 0
+0000.131 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need the SUPER privilege for this operation, b:0;)
+0000.131 () Max packet size: 16 MB
+0000.131 () Entering maintenance mode
+0000.131 () Anschalten des Wartungsmodus&#160;&hellip;
+0000.134 () Backup of: http://www.duesseldorfer-toastmasters.de
+0000.135 () Content URL: http://www.duesseldorfer-toastmasters.de/wp-content
+0000.135 () Uploads URL: http://www.duesseldorfer-toastmasters.de/wp-content/uploads
+0000.136 () Old table prefix: tm_
+0000.136 () Site information: multisite=0
+0000.138 () An error (1) occurred: Unknown character set: 'utf8mb4' - SQL query was (type=8): /*!40101 SET NAMES utf8mb4 */;
+0000.138 () Aborted: SET NAMES utf8mb4 failed: maintenance mode
+0000.138 () Abschalten des Wartungsmodus&#160;&hellip;
+0000.139 () Error message: Ein Fehler ist beim ersten SET NAMES Kommando aufgetreten - breche ab. Um diese Sicherung nutzen zu können, muss Ihr Server den utf8mb4 Zeichensatz unterstützen. Dieses Problem wird durch den Versuch verursacht, eine Datenbank auf einer sehr alten MySQL-Version wiederherzustellen, die mit der Quell-Datenbank nicht kompatibel ist. Die Datenbank erfordert MySQL in Version 5.5 oder höher.
+0000.139 () Restore failed...
+0000.140 () Error message: Ein Fehler ist beim ersten SET NAMES Kommando aufgetreten - breche ab. Um diese Sicherung nutzen zu können, muss Ihr Server den utf8mb4 Zeichensatz unterstützen. Dieses Problem wird durch den Versuch verursacht, eine Datenbank auf einer sehr alten MySQL-Version wiederherzustellen, die mit der Quell-Datenbank nicht kompatibel ist. Die Datenbank erfordert MySQL in Version 5.5 oder höher.
+0000.140 () Restore failed

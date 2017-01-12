@@ -1,0 +1,60 @@
+0000.016 () Opened log file at time: Fri, 16 Dec 2016 08:43:40 +0000 on http://www.duesseldorfer-toastmasters.de
+0000.016 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.29 WP: 4.7 PHP: 5.3.3-7+squeeze28 (apache2handler, Linux server127 2.6.32-5-amd64 #1 SMP Fri May 10 08:43:19 UTC 2013 x86_64) MySQL: 5.1.73 WPLANG: de_DE Server: Apache/2.2.16 (Debian) safe_mode: 1 max_execution_time: 30 memory_limit: 128M (used: 94.8M | 95.5M) multisite: N openssl: OpenSSL 0.9.8o 01 Jun 2010 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.016 () Free space on disk containing Updraft's temporary directory: 295732.6 MB
+0000.017 () Restore job started. Entities to restore: plugins, themes, others. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.079 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.082 () Entity: plugins
+0000.082 () restore_backup(backup_file=backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:39:"/var/www/web251/html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.090 () Entpacke Sicherung... (backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-plugins.zip, 12.7 Mb)
+0003.991 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.992 () Moving old data: can potentially use wp_filesystem method / -old
+0003.992 () Entferne alte Daten ...
+0008.066 () Top-level entities being moved: option-tree, wordpress-seo, wp-limit-login-attempts, php-code-widget, simple-301-redirects, advanced-custom-fields, accordions-wp, wpml-string-translation, contact-form-7, updraftplus, index.php, sitepress-multilingual-cms, wp-migrate-db, contact-form-7-success-page-redirects, calpress-event-calendar, akismet, custom-post-type-ui, really-simple-captcha, custom-widget-classes, hello.php
+0008.083 () Error message: Konnte Dateien nicht an den Bestimmungsort kopieren. Überprüfe die Datei-Berechtigungen.
+0008.083 () Error data (move_failed): /var/www/web251/html/wp-content/plugins/option-tree -> /var/www/web251/html/wp-content/updraft-bckup/plugins-old/option-tree
+0008.083 () plugins: /html/wp-content/plugins: deleting contents (as attempts to copy failed)
+0010.490 () Verschiebe entpackte Sicherung an Stelle ...
+0011.065 () Top-level entities being moved: accordions-wp, advanced-custom-fields, akismet, calpress-event-calendar, contact-form-7, contact-form-7-success-page-redirects, custom-post-type-ui, custom-widget-classes, hello.php, index.php, option-tree, php-code-widget, really-simple-captcha, simple-301-redirects, updraftplus, wordpress-seo, wp-limit-login-attempts, wp-migrate-db
+0011.067 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.069 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.072 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.074 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.076 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.078 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.081 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.083 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.087 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.090 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.093 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.096 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.099 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.102 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.106 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.109 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.125 () Räume auf ...
+0011.128 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/plugins (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.131 () Entity: themes
+0011.131 () restore_backup(backup_file=backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-themes.zip, type=themes, info=a:2:{s:4:"path";s:38:"/var/www/web251/html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0011.138 () Entpacke Sicherung... (backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-themes.zip, 3 Mb)
+0011.475 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.476 () Moving old data: can potentially use wp_filesystem method / -old
+0011.476 () Entferne alte Daten ...
+0011.608 () Top-level entities being moved: ToastMasters, twentyfourteen, twentyfifteen, twentythirteen, index.php
+0011.609 () Error message: Konnte Dateien nicht an den Bestimmungsort kopieren. Überprüfe die Datei-Berechtigungen.
+0011.609 () Error data (move_failed): /var/www/web251/html/wp-content/themes/ToastMasters -> /var/www/web251/html/wp-content/updraft-bckup/themes-old/ToastMasters
+0011.609 () themes: /html/wp-content/themes: deleting contents (as attempts to copy failed)
+0011.699 () Verschiebe entpackte Sicherung an Stelle ...
+0011.742 () Top-level entities being moved: ToastMasters, index.php, twentyfifteen, twentyfourteen, twentythirteen
+0011.744 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.747 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.749 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.752 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/themes/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.753 () Räume auf ...
+0011.766 () Entity: others
+0011.766 () restore_backup(backup_file=backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-others.zip, type=others, info=a:2:{s:4:"path";s:31:"/var/www/web251/html/wp-content";s:11:"description";s:6:"Andere";}, last_one=1)
+0011.766 () Entpacke Sicherung... (backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-others.zip, 0.8 Mb)
+0011.884 () PHP event: code E_NOTICE: Undefined index: /html/wp-content/ (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.884 () Räume auf ...
+0011.887 () PHP event: code E_NOTICE: Undefined index: /html/wp-content (line 264, wp-admin/includes/class-wp-filesystem-ftpext.php)
+0011.905 () Restore successful!
+0011.905 () Restore successful

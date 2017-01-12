@@ -1,0 +1,108 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+# Redirects
+
+
+RewriteEngine On
+
+Redirect 301 /?page_id=2 http://www.duesseldorfer-toastmasters.de/ueber-uns/
+
+Redirect 301 /?p=649 http://www.duesseldorfer-toastmasters.de/unsere-mitglieder/
+
+Redirect 301 /?page_id=5 http://www.duesseldorfer-toastmasters.de/mitmachen/zu-gast-sein/
+
+Redirect 301 /?page_id=7 http://www.duesseldorfer-toastmasters.de/mitmachen/
+
+Redirect 301 /?page_id=9 http://www.duesseldorfer-toastmasters.de/kontakt/
+
+Redirect 301 /?page_id=837 http://www.duesseldorfer-toastmasters.de/nachricht-gesendet/
+
+Redirect 301 /?page_id=720 https://www.facebook.com/pages/D%C3%BCsseldorfer-Toastmasters/124324034309261
+Redirect 301 /?page_id=630 http://www.duesseldorfer-toastmasters.de/haeufige-fragen/
+
+Redirect 301 /?page_id=247 http://www.duesseldorfer-toastmasters.de/impressum/
+
+Redirect 301 /?page_id=249 http://www.duesseldorfer-toastmasters.de/haftungsausschluss/
+
+Redirect 301 /?p=862 http://www.duesseldorfer-toastmasters.de/praesidium/
+
+
+Redirect 301 /?page_id=519 http://www.duesseldorfer-toastmasters.de/en/
+
+Redirect 301 /?page_id=525 http://www.duesseldorfer-toastmasters.de/en/about-us/
+
+Redirect 301 /?page_id=540 http://www.duesseldorfer-toastmasters.de/en/being-guest/
+
+Redirect 301 /?page_id=535 http://www.duesseldorfer-toastmasters.de/en/contact/
+
+Redirect 301 /?page_id=841 http://www.duesseldorfer-toastmasters.de/en/message-sent/
+
+Redirect 301 /?page_id=537 http://www.duesseldorfer-toastmasters.de/en/join-us/become-a-member/
+
+
+Redirect 301 /?p=686 http://www.duesseldorfer-toastmasters.de/
+
+Redirect 301 /?cat=15 http://www.duesseldorfer-toastmasters.de/praesidium/
+
+Redirect 301 /?cat=18 http://www.duesseldorfer-toastmasters.de/
+
+Redirect 301 /?p=643 http://www.duesseldorfer-toastmasters.de/
+
+Redirect 301 /?cat=12 http://www.duesseldorfer-toastmasters.de/en/
+
+Redirect 301 /?cat=11 http://www.duesseldorfer-toastmasters.de/en/
+
+
+
+Redirect Gone /?cat=21 
+
+Redirect Gone /?cat=9 
+
+Redirect Gone /?feed=rss2%26amp;p=686 
+
+Redirect Gone /?tag=public-speaking 
+
+Redirect Gone /?tag=tipps 
+
+Redirect Gone /?tag=toastmasters-3 
+
+Redirect Gone /?tag=dtm 
+
+Redirect Gone /?feed=rss2%26amp;p=862 
+
+Redirect Gone /?feed=rss2%26amp;p=643 
+
+Redirect Gone /?p=655 
+
+Redirect Gone /?feed=rss2%26amp;p=649 
+
+Redirect Gone /?cat=20 
+
+Redirect Gone /?cat=1 
+
+Redirect Gone /?p=657 
+
+Redirect Gone /?p=663 
+
+Redirect Gone /?p=660 
+
+Redirect Gone /?p=665 
+
+Redirect Gone /?feed=rss2%26amp;p=655 
+
+Redirect Gone /?feed=rss2%26amp;p=657 
+
+Redirect Gone /?feed=rss2%26amp;p=663 
+
+Redirect Gone /?feed=rss2%26amp;p=660 
+
+Redirect Gone /?feed=rss2%26amp;p=665 

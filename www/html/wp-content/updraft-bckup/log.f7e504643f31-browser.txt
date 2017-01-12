@@ -1,0 +1,22 @@
+0000.022 (R) [notice] Suche nach db Archiv: Dateiname: backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-db.gz
+0000.023 (R) [notice] Die zu erwartene Archivgröße: 226.7 KB: Okay
+0000.035 (R) [notice] Suche nach plugins Archiv: Dateiname: backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-plugins.zip
+0000.035 (R) [notice] Die zu erwartene Archivgröße: 12956.4 KB: Okay
+0000.051 (R) [notice] Suche nach themes Archiv: Dateiname: backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-themes.zip
+0000.051 (R) [notice] Die zu erwartene Archivgröße: 3056.6 KB: Okay
+0000.066 (R) [notice] Suche nach others Archiv: Dateiname: backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-others.zip
+0000.067 (R) [notice] Die zu erwartene Archivgröße: 789 KB: Okay
+0000.076 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.106 (R) [notice] Entpacke Sicherung... (backup_2016-12-14-1630_Dsseldorfer_Toastmasters_c4cf83662ddf-db.gz, 0 Mb)
+0000.119 (R) [notice] Warnung: PHP safe_mode ist auf deinem Server aktiviert. Time-Outs sind wahrscheinlicher. Tritt das auf, musst du ggf. Dateien manuell via phpMyAdmin oder ähnlichem wiederherstellen.
+0000.119 (R) [notice] Datenbank wiederherstellen (bei großen Websites kann das dauern - wenn der Vorgang in einen Timeout läuft (was passieren kann, wenn dein Webhoster die Ressourcen limitiert) solltest du andere Methoden, wie z.B. phpMyAdmin, nutzen) ...
+0000.131 (R) [notice] Anschalten des Wartungsmodus&#160;&hellip;
+0000.134 (R) [notice] Backup von: http://www.duesseldorfer-toastmasters.de
+0000.135 (R) [notice] Inhalt-URL: http://www.duesseldorfer-toastmasters.de/wp-content
+0000.135 (R) [notice] URL für Uploads: http://www.duesseldorfer-toastmasters.de/wp-content/uploads
+0000.136 (R) [notice] Alter Tabellen-Prefix: tm_
+0000.136 (R) [notice] Website-Informationen: multisite = 0
+0000.138 (R) [notice] Ein Fehler (1) ist aufgetreten: - Unknown character set: 'utf8mb4' - Das ausgeführte Datenbank-Kommando war: /*!40101 SET NAMES utf8mb4 */;
+0000.138 (R) [notice] Abschalten des Wartungsmodus&#160;&hellip;
+0000.139 (R) [notice] Fehlermeldung: Ein Fehler ist beim ersten SET NAMES Kommando aufgetreten - breche ab. Um diese Sicherung nutzen zu können, muss Ihr Server den utf8mb4 Zeichensatz unterstützen. Dieses Problem wird durch den Versuch verursacht, eine Datenbank auf einer sehr alten MySQL-Version wiederherzustellen, die mit der Quell-Datenbank nicht kompatibel ist. Die Datenbank erfordert MySQL in Version 5.5 oder höher.
+0000.140 (R) [notice] Restore failed...
